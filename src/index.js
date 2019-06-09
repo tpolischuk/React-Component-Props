@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import CommentDetail from './CommentDetail'
 import faker from 'faker'
+import ApprovalCard from './ApprovalCard'
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
         timeAgo="Yesterday at 5:03PM"
         content={faker.lorem.words()}
         />
+      <ApprovalCard />
     </div>
   );
 };
